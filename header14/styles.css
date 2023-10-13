@@ -1,0 +1,173 @@
+/*---------------------------H14-container-----------------------------------------*/
+.h14-container{
+    background-color:#1e06a5;
+    color: white;
+    padding: 15px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    margin: 3%;
+}
+.h14-nav-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    
+
+}
+.h14-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 25px;
+    font-size: 18px;
+
+}
+.h14-logo{
+   font-size: 20px;
+}
+.h14-heading{
+    font-weight: bold;
+    font-size: 49px;
+
+}
+.h14-para{
+    font-size: 22px;
+    font-family: 'DM Sans';
+    padding-left: 10px;
+    Line-height :32px;
+
+
+}
+.h14-overview{
+    color: rgb(158, 158, 158);
+}
+.h14-btn{
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgb(230, 85, 109);
+    color: rgb(255, 255, 255);
+}
+.h14-body-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.h14-right-bodr-cotainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    margin: 0% 0% 0 15%;
+    padding: 5%;
+}
+.h14-left-bodr-cotainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width:60%;
+    text-align: start;
+   margin: 0% 15% 0 0%;
+   padding: 4%;
+   border-radius: 10px;
+   
+}
+.h14-signup{
+    color: #050471;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    padding: 3%;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10px;
+}
+.h14-btns{
+    display:flex ;
+    justify-content :space-around;
+    flex-direction: column;
+    width:80% ;
+    margin: 20px;
+}
+.h14-signin-btn{
+    background-color: rgb(0, 4, 255);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+.h14-login-btn{
+    background-color: rgb(0, 145, 255);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+.h14-custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.h14-custom-checkbox .h14-checkmark {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(7, 190, 199); 
+    border-radius: 4px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    color:black;
+}
+
+.h14-custom-checkbox .h14-checkmark::before {
+    content: '\2713';
+    font-size: 16px;
+}
+
+.h14-custom-checkbox label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.h14-custom-checkbox{
+    color: rgb(155, 146, 146);
+}
+.h14-spcl-info{
+    color: gray;
+    font-family: 'Roboto';
+}
+.signin{
+    color: rgb(12, 220, 220);
+    font-family: 'Roboto';
+    font-weight: bolder;
+
+}
+.hr1 {
+    width: 100px;
+    border: none;
+    border-top: 1px solid #000; /* You can style the line as needed */
+  }
+
+  .hr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: gray;
+  }
